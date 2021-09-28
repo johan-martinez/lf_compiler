@@ -27,8 +27,7 @@ LOG_OPE     ("&&"|"||"|"!")
 "}"             return KC; 
 "("             return BO;
 ")"             return BC;    
-"="             return EQ;    
-\n              return EOL;
-[ \t]+          {}
+"="             return EQ;   
+[ \t\n]+          {}
 .                {printf("Lexical Error %s\n", yytext);}
 %%

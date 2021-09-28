@@ -7,7 +7,7 @@ void yyerror(char *s);
 extern FILE * yyin;
 %}
 
-%token TXT BOOL  NUM  LET  NAME_VAR IF ELSE WHILE  MATH COMPARATOR LOGIC KO KC BO BC EQ EOL 
+%token TXT BOOL  NUM  LET  NAME_VAR IF ELSE WHILE  MATH COMPARATOR LOGIC KO KC BO BC EQ
 
 
 
@@ -16,10 +16,10 @@ extern FILE * yyin;
 
 Input: | Input Line;
 
-Line:   EOL | Variable EOL 
-            | Math EOL 
-            | Conditional EOL
-            | Cycle EOL
+Line:       | Variable  
+            | Math  
+            | Conditional 
+            | Cycle 
             ;
 
 Variable: LET NAME_VAR                            {printf("Valid code LET \n");} 

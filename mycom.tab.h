@@ -60,8 +60,7 @@ extern int yydebug;
     KC = 270,
     BO = 271,
     BC = 272,
-    EQ = 273,
-    EOL = 274
+    EQ = 273
   };
 #endif
 

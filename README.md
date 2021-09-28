@@ -10,7 +10,7 @@ Capas sitácticas y léxicas de un compilador que valida variables, definiciones
 ## Compilación
 `sh start.sh` 
 
-## Ejecucuión
+## Ejecución
 `./mycom.exe "input.mcm"`
 
 ## Resultados

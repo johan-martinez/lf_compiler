@@ -1,22 +1,21 @@
 # lf_compiler
 
-## Descripción
 
 Capas sitácticas y léxicas de un compilador que valida variables, definiciones, asignaciones,procedimientos de operaciones matemáticas, condicionales y ciclos iterativos, teniendo como **Input:** un archivo con el código fuente
 
-##Requisitos
+#Requisitos
 *bison
 *flex
 *gcc
 
-##Compilación
+#Compilación
 `<addr>`sh start.sh
 
-##Ejecucuión
+#Ejecucuión
 `<addr>`./mycom.exe "input.mcm"
 
-##Resultados
+#Resultados
 Se obtienen por pantalla el análisis sintáctico y léxico, mostrando los tokens válidos y los errores presentes en el código fuente
 
-##Autores
+#Autores
 *Johan Sebastian Martínez Juno

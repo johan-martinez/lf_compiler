@@ -1,14 +1,14 @@
-# lf_compiler
+# lf_compiler#
 
 
 Capas sitácticas y léxicas de un compilador que valida variables, definiciones, asignaciones,procedimientos de operaciones matemáticas, condicionales y ciclos iterativos, teniendo como **Input:** un archivo con el código fuente
 
-#Requisitos
+##Requisitos##
 *bison
 *flex
 *gcc
 
-#Compilación
+##Compilación##
 `<addr>`sh start.sh
 
 #Ejecucuión

@@ -17,4 +17,4 @@ Capas sitácticas y léxicas de un compilador que valida variables, definiciones
 Se obtienen por pantalla el análisis sintáctico y léxico, mostrando los tokens válidos y los errores presentes en el código fuente
 
 ## Autores
-* Johan Sebastian Martínez Juno
+* Johan Sebastian Martínez Junco

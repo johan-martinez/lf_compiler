@@ -1,0 +1,15 @@
+
+let number=3
+
+txt='hola'
+
+while(number==3){
+  number+2
+}
+
+if(num<=2){ 
+   number+2
+}else {
+  number-1
+}
+
